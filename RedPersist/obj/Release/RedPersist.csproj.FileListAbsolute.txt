@@ -1,0 +1,11 @@
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\bin\Release\RedPersist.exe.config
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\bin\Release\RedPersist.exe
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\bin\Release\RedPersist.pdb
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\bin\Release\Microsoft.Win32.TaskScheduler.xml
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.csproj.AssemblyReference.cache
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.csproj.CopyComplete
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.exe
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.pdb
+C:\Users\Mert\Downloads\RedPersist-main\RedPersist-main\RedPersist\obj\Release\RedPersist.csproj.Fody.CopyLocal.cache

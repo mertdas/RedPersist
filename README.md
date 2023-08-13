@@ -4,7 +4,7 @@
 
 RedPersist is a Windows Persistence tool written in C#
 
-#### Compiling Project
+## Compiling Project
 
 Below 3rd party libraries are used in this project.
 
@@ -15,14 +15,14 @@ Open "NuGet Package Manager" > "Package Sources"<br><br>
 <b>Install the Fody</b><br>``Install-Package Costura.Fody -Version 3.3.3``<br><br>
 <b>Install the Taskscheduler</b><br>``Install-Package TaskScheduler -Version 2.8.11``
 
-#### Usage
+## Usage
 
 You can use it with execute-assembly or standalone executable
 
 ``RedPersist.exe --method C:\Path\to\executable.exe``<br>
 ``RedPersist.exe --help``
 
-#### Available Methods
+## Available Methods
 
 <b>--help/-h</b> : Help Menu<br>
 ``RedPersist.exe --help``<br><br>
@@ -34,13 +34,11 @@ You can use it with execute-assembly or standalone executable
 ``RedPersist.exe --screensaver C:\Users\User\exe.exe``<br><br>
 <b>--wmi</b>         : Persistence via Wmi Event Subscription<br>
 ``RedPersist.exe --wmi C:\Users\User\exe.exe``<br><br>
-<b>--winlogon</b>         : Persistence via UserInitMprLogonScript<br>
-``RedPersist.exe --winlogon C:\Users\User\exe.exe``<br><br>
 <b>--schedule</b>    : Persistence via Scheduled Tasks<br>
 ``RedPersist.exe --schedule TaskName C:\Users\User\exe.exe``<br><br>
 <b>--extension</b>   : Persistence via Extension Hijacking(TXT)<br>
 ``RedPersist.exe --extension C:\Users\User\exe.exe``<br><br>
-<b>--powershell</b>   : Persistence via Powershell Profile<br>
-```RedPersist.exe --powershell C:\Users\User\Documents\windowspowershell C:\Users\User\Documents\windowspowershell\profile.ps1 C:\Users\User\Desktop\exe.exe```<br>
+<b>--powershell</b>   : Persistence via Powershell Profile(will add)<br>
+``RedPersist.exe--pwsh C:\Users\User\Documents\windowspowershell C:\Users\User\Documents\windowspowershell\profile.ps1 C:\Users\User\Desktop\exe.exe``<br>
 
 ![image](https://user-images.githubusercontent.com/48562581/201770794-8518b92b-6315-4924-817a-71cefd975c41.png)
