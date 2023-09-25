@@ -15,6 +15,9 @@ Open "NuGet Package Manager" > "Package Sources"<br><br>
 <b>Install the Fody</b><br>``Install-Package Costura.Fody -Version 3.3.3``<br><br>
 <b>Install the Taskscheduler</b><br>``Install-Package TaskScheduler -Version 2.8.11``
 
+![image](https://github.com/mertdas/RedPersist/assets/48562581/b192d0de-67ea-4d24-b7cc-da0c4c4de71d)
+
+
 ## Usage
 
 You can use it with execute-assembly or standalone executable
@@ -32,13 +35,15 @@ You can use it with execute-assembly or standalone executable
 ``RedPersist.exe --startup C:\Users\User\exe.exe``<br><br>
 <b>--screensaver</b> : Persistence via Screensaver<br>
 ``RedPersist.exe --screensaver C:\Users\User\exe.exe``<br><br>
-<b>--wmi</b>         : Persistence via Wmi Event Subscription<br>
+<b>--wmi</b>         : Persistence via Wmi Event Subscription(To Notepad.exe)<br>
 ``RedPersist.exe --wmi C:\Users\User\exe.exe``<br><br>
 <b>--schedule</b>    : Persistence via Scheduled Tasks<br>
 ``RedPersist.exe --schedule TaskName C:\Users\User\exe.exe``<br><br>
 <b>--extension</b>   : Persistence via Extension Hijacking(TXT)<br>
 ``RedPersist.exe --extension C:\Users\User\exe.exe``<br><br>
-<b>--powershell</b>   : Persistence via Powershell Profile(will add)<br>
+<b>--winlogon</b>   : Persistence via UserInitMprLogonScript<br>
+``RedPersist.exe --winlogon TaskName C:\Users\User\exe.exe``<br><br>
+<b>--powershell</b>   : Persistence via Powershell Profile<br>
 ``RedPersist.exe--pwsh C:\Users\User\Documents\windowspowershell C:\Users\User\Documents\windowspowershell\profile.ps1 C:\Users\User\Desktop\exe.exe``<br>
 
 ![image](https://user-images.githubusercontent.com/48562581/201770794-8518b92b-6315-4924-817a-71cefd975c41.png)
