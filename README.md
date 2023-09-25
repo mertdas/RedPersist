@@ -15,7 +15,7 @@ Open "NuGet Package Manager" > "Package Sources"<br><br>
 <b>Install the Fody</b><br>``Install-Package Costura.Fody -Version 3.3.3``<br><br>
 <b>Install the Taskscheduler</b><br>``Install-Package TaskScheduler -Version 2.8.11``
 
-![image](https://github.com/mertdas/RedPersist/assets/48562581/b192d0de-67ea-4d24-b7cc-da0c4c4de71d)
+![image](https://github.com/mertdas/RedPersist/assets/48562581/d7a4b3e9-9ef3-4bd4-86b6-cb162975c2c6)
 
 
 ## Usage
