@@ -31,7 +31,9 @@ You can use it with execute-assembly or standalone executable
 ``RedPersist.exe --help``<br><br>
 <b>--eventviewer</b> : Persistence via Eventviewer Helper<br>
 ``RedPersist.exe --eventviewer C:\Users\User\exe.exe``<br><br>
-<b>--startup</b>     : Persistence via Startup and Autologon<br>
+<b>--startup</b>     : Persistence via Startup<br>
+``RedPersist.exe --startup C:\Users\User\exe.exe``<br><br>
+<b>--autologon</b>     : Persistence via Autologon<br>
 ``RedPersist.exe --startup C:\Users\User\exe.exe``<br><br>
 <b>--screensaver</b> : Persistence via Screensaver<br>
 ``RedPersist.exe --screensaver C:\Users\User\exe.exe``<br><br>
